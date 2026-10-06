@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="-apple-system, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1f35"/>
+      <stop offset="100%" stop-color="#060e1a"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="shadowSm">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <!-- Title -->
+  <text x="600" y="60" text-anchor="middle" font-size="13" font-weight="700" fill="rgba(255,255,255,0.4)" letter-spacing="3">THE OUTPUT</text>
+  <text x="600" y="100" text-anchor="middle" font-size="38" font-weight="800" fill="#ffffff">Two Reports. Two Audiences. Zero Confusion.</text>
+  <text x="600" y="133" text-anchor="middle" font-size="16" fill="rgba(255,255,255,0.5)">Business stakeholders and engineers each get exactly the information they need — nothing more, nothing less</text>
+
+  <!-- ── LEFT: Customer Report ── -->
+  <!-- Browser chrome -->
+  <rect x="55" y="160" width="510" height="440" rx="12" fill="#006fac" filter="url(#shadow)"/>
+  <!-- Tab bar -->
+  <rect x="55" y="160" width="510" height="36" rx="12" fill="#004d7a"/>
+  <rect x="55" y="178" width="510" height="18" fill="#004d7a"/>
+  <circle cx="80" cy="178" r="5" fill="#ff5f57" opacity="0.8"/>
+  <circle cx="96" cy="178" r="5" fill="#febc2e" opacity="0.8"/>
+  <circle cx="112" cy="178" r="5" fill="#28c840" opacity="0.8"/>
+  <rect x="130" y="170" width="180" height="16" rx="4" fill="rgba(255,255,255,0.12)"/>
+  <text x="220" y="182" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.6)">customer-questions.html</text>
+
+  <!-- Sidebar strip -->
+  <rect x="55" y="196" width="70" height="404" rx="0" fill="#003d60"/>
+  <rect x="63" y="210" width="54" height="10" rx="2" fill="rgba(255,255,255,0.5)"/>
+  <rect x="63" y="226" width="42" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="63" y="240" width="46" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="63" y="254" width="40" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="63" y="268" width="44" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="63" y="292" width="50" height="7" rx="1.5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="63" y="306" width="44" height="7" rx="1.5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="63" y="320" width="48" height="7" rx="1.5" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Main content area -->
+  <!-- Header gradient strip -->
+  <rect x="125" y="196" width="440" height="70" fill="#0077b6"/>
+  <rect x="137" y="207" width="80" height="7" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <rect x="137" y="220" width="160" height="11" rx="2" fill="rgba(255,255,255,0.8)"/>
+  <rect x="137" y="238" width="200" height="7" rx="2" fill="rgba(255,255,255,0.35)"/>
+  <!-- Stat cards in header -->
+  <rect x="350" y="205" width="60" height="50" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="380" y="228" text-anchor="middle" font-size="18" font-weight="800" fill="white">8</text>
+  <text x="380" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)">Screens</text>
+  <rect x="420" y="205" width="76" height="50" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="458" y="228" text-anchor="middle" font-size="18" font-weight="800" fill="white">24</text>
+  <text x="458" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)">Questions</text>
+  <rect x="505" y="205" width="56" height="50" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="533" y="228" text-anchor="middle" font-size="18" font-weight="800" fill="white">6</text>
+  <text x="533" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)">Themes</text>
+
+  <!-- Content body -->
+  <rect x="125" y="266" width="440" height="334" fill="#f0f4f8"/>
+  <!-- Executive summary card -->
+  <rect x="133" y="274" width="424" height="68" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="141" y="283" width="100" height="8" rx="2" fill="#043d5d"/>
+  <rect x="141" y="298" width="360" height="6" rx="1.5" fill="#e0e8f0"/>
+  <rect x="141" y="310" width="300" height="6" rx="1.5" fill="#e0e8f0"/>
+  <rect x="141" y="322" width="220" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <!-- Question cards -->
+  <rect x="133" y="350" width="424" height="62" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="137" y="350" width="4" height="62" rx="2" fill="#006fac"/>
+  <rect x="148" y="360" width="34" height="8" rx="4" fill="#e8f4fc"/>
+  <rect x="188" y="360" width="50" height="8" rx="4" fill="#e8f4fc"/>
+  <rect x="244" y="360" width="40" height="8" rx="4" fill="#fde2e4"/>
+  <rect x="148" y="374" width="340" height="8" rx="2" fill="#1a2a3a" opacity="0.7"/>
+  <rect x="148" y="388" width="280" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <rect x="133" y="420" width="424" height="62" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="137" y="420" width="4" height="62" rx="2" fill="#006fac"/>
+  <rect x="148" y="430" width="34" height="8" rx="4" fill="#e8f4fc"/>
+  <rect x="188" y="430" width="60" height="8" rx="4" fill="#e8f4fc"/>
+  <rect x="254" y="430" width="50" height="8" rx="4" fill="#fff3cd"/>
+  <rect x="148" y="444" width="320" height="8" rx="2" fill="#1a2a3a" opacity="0.7"/>
+  <rect x="148" y="458" width="260" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <rect x="133" y="490" width="424" height="62" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="137" y="490" width="4" height="62" rx="2" fill="#006fac"/>
+  <rect x="148" y="500" width="34" height="8" rx="4" fill="#e8f4fc"/>
+  <rect x="188" y="500" width="44" height="8" rx="4" fill="#e8f4fc"/>
+  <rect x="238" y="500" width="40" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="148" y="514" width="300" height="8" rx="2" fill="#1a2a3a" opacity="0.7"/>
+  <rect x="148" y="528" width="240" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <!-- Label -->
+  <text x="310" y="622" text-anchor="middle" font-size="20" font-weight="800" fill="#4db8ff">Customer Report</text>
+  <text x="310" y="645" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.5)">Business Clarifications · For stakeholders &amp; product owners</text>
+
+  <!-- ── RIGHT: Developer Report ── -->
+  <rect x="635" y="160" width="510" height="440" rx="12" fill="#1a6b5c" filter="url(#shadow)"/>
+  <!-- Tab bar -->
+  <rect x="635" y="160" width="510" height="36" rx="12" fill="#0d3d2e"/>
+  <rect x="635" y="178" width="510" height="18" fill="#0d3d2e"/>
+  <circle cx="660" cy="178" r="5" fill="#ff5f57" opacity="0.8"/>
+  <circle cx="676" cy="178" r="5" fill="#febc2e" opacity="0.8"/>
+  <circle cx="692" cy="178" r="5" fill="#28c840" opacity="0.8"/>
+  <rect x="710" y="170" width="190" height="16" rx="4" fill="rgba(255,255,255,0.12)"/>
+  <text x="805" y="182" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.6)">developer-questions.html</text>
+
+  <!-- Sidebar strip -->
+  <rect x="635" y="196" width="70" height="404" rx="0" fill="#0a2d22"/>
+  <rect x="643" y="210" width="54" height="10" rx="2" fill="rgba(255,255,255,0.5)"/>
+  <rect x="643" y="226" width="42" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="643" y="240" width="46" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="643" y="254" width="40" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="643" y="268" width="44" height="7" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="643" y="292" width="50" height="7" rx="1.5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="643" y="306" width="44" height="7" rx="1.5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="643" y="320" width="48" height="7" rx="1.5" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Header gradient strip -->
+  <rect x="705" y="196" width="440" height="70" fill="#1a6b5c"/>
+  <rect x="717" y="207" width="80" height="7" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <rect x="717" y="220" width="180" height="11" rx="2" fill="rgba(255,255,255,0.8)"/>
+  <rect x="717" y="238" width="200" height="7" rx="2" fill="rgba(255,255,255,0.35)"/>
+  <!-- Stat cards -->
+  <rect x="930" y="205" width="60" height="50" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="960" y="228" text-anchor="middle" font-size="18" font-weight="800" fill="white">8</text>
+  <text x="960" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)">Screens</text>
+  <rect x="1000" y="205" width="60" height="50" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="1030" y="228" text-anchor="middle" font-size="18" font-weight="800" fill="white">31</text>
+  <text x="1030" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)">Questions</text>
+  <rect x="1070" y="205" width="60" height="50" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="1100" y="228" text-anchor="middle" font-size="18" font-weight="800" fill="white">5</text>
+  <text x="1100" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)">Themes</text>
+
+  <!-- Content body -->
+  <rect x="705" y="266" width="440" height="334" fill="#f0f4f8"/>
+  <!-- Build implications card -->
+  <rect x="713" y="274" width="424" height="68" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="721" y="283" width="100" height="8" rx="2" fill="#043d5d"/>
+  <rect x="721" y="298" width="360" height="6" rx="1.5" fill="#e0e8f0"/>
+  <rect x="721" y="310" width="300" height="6" rx="1.5" fill="#e0e8f0"/>
+  <rect x="721" y="322" width="220" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <!-- Developer question cards — green accent -->
+  <rect x="713" y="350" width="424" height="62" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="717" y="350" width="4" height="62" rx="2" fill="#1a6b5c"/>
+  <rect x="728" y="360" width="34" height="8" rx="4" fill="#e2f4f0"/>
+  <rect x="768" y="360" width="60" height="8" rx="4" fill="#e2f4f0"/>
+  <rect x="834" y="360" width="40" height="8" rx="4" fill="#fde2e4"/>
+  <rect x="728" y="374" width="340" height="8" rx="2" fill="#1a2a3a" opacity="0.7"/>
+  <rect x="728" y="388" width="280" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <rect x="713" y="420" width="424" height="62" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="717" y="420" width="4" height="62" rx="2" fill="#1a6b5c"/>
+  <rect x="728" y="430" width="34" height="8" rx="4" fill="#e2f4f0"/>
+  <rect x="768" y="430" width="50" height="8" rx="4" fill="#e2f4f0"/>
+  <rect x="824" y="430" width="60" height="8" rx="4" fill="#fff3cd"/>
+  <rect x="728" y="444" width="320" height="8" rx="2" fill="#1a2a3a" opacity="0.7"/>
+  <rect x="728" y="458" width="260" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <rect x="713" y="490" width="424" height="62" rx="6" fill="white" filter="url(#shadowSm)"/>
+  <rect x="717" y="490" width="4" height="62" rx="2" fill="#1a6b5c"/>
+  <rect x="728" y="500" width="34" height="8" rx="4" fill="#e2f4f0"/>
+  <rect x="768" y="500" width="70" height="8" rx="4" fill="#e2f4f0"/>
+  <rect x="844" y="500" width="40" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="728" y="514" width="300" height="8" rx="2" fill="#1a2a3a" opacity="0.7"/>
+  <rect x="728" y="528" width="240" height="6" rx="1.5" fill="#e0e8f0"/>
+
+  <!-- Label -->
+  <text x="890" y="622" text-anchor="middle" font-size="20" font-weight="800" fill="#4dffd6">Developer Report</text>
+  <text x="890" y="645" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.5)">Implementation Questions · For engineers &amp; technical leads</text>
+
+  <!-- VS divider -->
+  <circle cx="600" cy="380" r="28" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <text x="600" y="386" text-anchor="middle" font-size="14" font-weight="800" fill="rgba(255,255,255,0.5)">VS</text>
+</svg>
